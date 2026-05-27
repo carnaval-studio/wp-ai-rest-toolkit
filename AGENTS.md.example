@@ -1,0 +1,33 @@
+# WP AI REST Toolkit - Configuración del Proyecto
+
+## Sitios Configurados
+
+### Site 1
+- **Name:** Nombre del Sitio 1
+- **Site URL:** https://tusitio1.com
+- **REST API Base:** https://tusitio1.com/wp-json/wp/v2
+- **Auth:** usuario@email.com:APPLICATION_PASSWORD
+
+### Site 2
+- **Name:** Nombre del Sitio 2
+- **Site URL:** https://tusitio2.com
+- **REST API Base:** https://tusitio2.com/wp-json/wp/v2
+- **Auth:** usuario@email.com:APPLICATION_PASSWORD
+
+---
+
+## Instrucciones para Agentes
+
+Para interactuar con estos sitios WordPress, **cargar el skill** `wp-ai-rest-toolkit` primero:
+```
+Usar skill: wp-ai-rest-toolkit
+```
+
+Luego usar las credenciales de este archivo para los comandos curl.
+
+## Notas
+
+- **NO usar MCP Adapter** - Usar solo REST API directamente via curl
+- Las credenciales son Application Passwords de WordPress
+- Algunos sitios pueden tener endpoints restringidos por seguridad (ej. listado de usuarios)
+- IDs de páginas, posts, etc. se obtienen de las respuestas JSON al crear o listar

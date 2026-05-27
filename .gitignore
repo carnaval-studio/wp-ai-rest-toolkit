@@ -1,0 +1,20 @@
+# Nunca subir AGENTS.md con credenciales reales
+# Este archivo debe contener solo placeholders para compartir
+AGENTS.md
+
+# Si quieres mantener una plantilla en el repo, renombra:
+# AGENTS.md → AGENTS.md.example
+# Y agrega AGENTS.md al .gitignore
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
