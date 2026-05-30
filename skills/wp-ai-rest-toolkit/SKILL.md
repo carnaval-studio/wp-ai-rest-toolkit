@@ -1,3 +1,8 @@
+---
+name: wp-ai-rest-toolkit
+description: "Use when interacting with WordPress sites through the native REST API using curl, Basic Auth, Application Passwords, pages, posts, media, users, menus, taxonomies, plugins, themes, site settings, and Gutenberg HTML blocks without MCP."
+---
+
 # WP AI REST Toolkit Skill
 
 ## Descripción
